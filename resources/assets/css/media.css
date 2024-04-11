@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro/CeraPro-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro/CeraPro-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro/CeraPro-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url("../fonts/CeraPro/CeraPro-Black.woff");
+    font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+    .header_nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    .footer_grid {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+    }
+    .footer_lines {
+        width: 0;
+        height: 0;
+    }
+    .footer_lines_white {
+        width: 0;
+        height: 0;
+    }
+    .footer_flover {
+        margin: 0 auto;
+    }
+    .footer_flover_tittle {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .footer_flover_description {
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    .footer_adress {
+        gap: 20px;
+    }
+    .footer_adress_tittle {
+        margin: 0 auto;
+
+        font-size: 14px;
+    }
+    .footer_adress_e-mail {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .footer_adress_input {
+        width: 258px;
+        height: 28px;
+        margin: 0 auto;
+    }
+    .footer_adress_button {
+        height: 28px;
+        width: 40px;
+        border-radius: 6px;
+        margin: 0 auto;
+    }
+    .footer_adress_button_description {
+        font-size: 10px;
+    }
+    .footer_adress_description {
+        width: 243px;
+        font-size: 12px;
+    }
+    .lines_green {
+        width: 0;
+        height: 0;
+    }
+    .contact {
+        flex-direction: column;
+        margin: 0;
+        gap: 10px;
+    }
+    .footer_flover {
+        height: 57px;
+        width: 47px;
+    }
+    .contact_logo {
+        height: 23px;
+        width: 90px;
+    }
+    .greenshop {
+        height: 23px;
+        width: 90px;
+    }
+    .contact_data {
+    }
+    .contact_data_description {
+        font-size: 10px;
+    }
+    .width {
+    }
+    .support {
+        flex-direction: column;
+        width: auto;
+        gap: 33px;
+    }
+    .support_data {
+        margin: 0 auto;
+        gap: 13px;
+    }
+    .support_data_tittle {
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .support_data_description {
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    .card {
+    }
+    .cards {
+    }
+    .end_footer_tittle {
+    }
+    .cards_social_media {
+    }
+    .social_media {
+    }
+    .cards_accpect {
+    }
+    .cards_accpect_description {
+    }
+    .cards_accpect_img {
+        width: 224px;
+        height: 26px;
+        flex-shrink: 0;
+    }
+    @media screen and (max-width: 849px) {
+        .footer_grid {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .footer_lines {
+            width: 0;
+            height: 0;
+        }
+        .footer_lines_white {
+            width: 0;
+            height: 0;
+        }
+        .footer_flover {
+            margin: 0 auto;
+        }
+        .footer_flover_tittle {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .footer_flover_description {
+            text-align: center;
+            align-items: center;
+            display: flex;
+            margin: 0 auto;
+        }
+        .footer_adress {
+            gap: 20px;
+        }
+        .footer_adress_tittle {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 14px;
+        }
+        .footer_adress_e-mail {
+            flex-direction: column;
+            gap: 12px;
+        }
+        .footer_adress_input {
+            width: 258px;
+            height: 28px;
+            margin: 0 auto;
+        }
+        .footer_adress_button {
+            height: 28px;
+            width: 40px;
+            border-radius: 6px;
+            margin: 0 auto;
+        }
+        .footer_adress_button_description {
+            text-align: center;
+            font-size: 10px;
+        }
+        .footer_adress_description {
+            width: 243px;
+            font-size: 12px;
+        }
+        .lines_green {
+            width: 0;
+            height: 0;
+        }
+        .contact {
+            flex-direction: column;
+            gap: 10px;
+        }
+        .footer_flover {
+            height: 57px;
+            width: 47px;
+        }
+        .contact_logo {
+            height: 23px;
+            width: 90px;
+        }
+        .greenshop {
+            height: 23px;
+            width: 90px;
+        }
+        .contact_data {
+        }
+        .contact_data_description {
+            font-size: 12px;
+        }
+        .width {
+        }
+        .support {
+            flex-direction: column;
+            width: auto;
+            gap: 33px;
+        }
+        .support_data {
+            margin: 0 auto;
+            gap: 13px;
+        }
+        .support_data_tittle {
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        .support_data_description {
+            margin: 0 auto;
+            font-size: 12px;
+        }
+        .card {
+        }
+        .cards {
+        }
+        .end_footer_tittle {
+        }
+        .cards_social_media {
+        }
+        .social_media {
+        }
+        .cards_accpect {
+        }
+        .cards_accpect_description {
+        }
+        .cards_accpect_img {
+            width: 224px;
+            height: 26px;
+            flex-shrink: 0;
+        }
+    }
+}
